@@ -109,16 +109,24 @@ git push
 
 I can run this restructure and commit for you — reply `move now` and I'll perform it.
 
-## Screenshots
+## Proof of work (Screenshots)
 
-Add screenshots to a `screenshots/` folder and reference them in this README. Example:
+The following screenshots demonstrate the app UI and features. Images are stored in the `screenshots/` folder.
 
-```md
-### Screenshot: App home
-![App home](screenshots/home.png)
-```
+### App screenshots
 
-Please put image files in `screenshots/`.
+- **Home / Chat UI**
+	![Home Chat UI](screenshots/home.png)
+- **API Guide / PDF preview**
+	![API Guide](screenshots/api_guide.png)
+- **PPT Preview**
+	![PPT Preview](screenshots/ppt_preview.png)
+- **Dashboard analysis**
+	![Dashboard](screenshots/dashboard.png)
+- **Search results**
+	![Search](screenshots/search.png)
+
+If the images are not yet present in `screenshots/`, upload them (drag-and-drop in VS Code) or reply `import attachments` and I'll add the images from this chat into the folder and commit them for you.
 
 ## Notes and next steps
 
