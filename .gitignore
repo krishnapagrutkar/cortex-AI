@@ -1,45 +1,71 @@
-# Node
+# =========================
+# Dependencies
+# =========================
 node_modules/
+**/node_modules/
 
-# Env files
+# =========================
+# Environment Files
+# =========================
 .env
 .env.*
+**/.env
+**/.env.*
 
-# Build outputs
-dist/
-build/
-
+# =========================
 # Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# =========================
 logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# OS files
-.DS_Store
-Thumbs.db
+# =========================
+# Build
+# =========================
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
 
+# =========================
+# Vite
+# =========================
+.vite/
+
+# =========================
 # IDE
+# =========================
 .vscode/
 .idea/
 
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# AWS
+# =========================
+*.pem
+
+# =========================
+# Firebase
+# =========================
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# =========================
 # Docker
-*.tgz
+# =========================
+.dockerignore
 
-# Sensitive files
-backend/auth/serviceAccountKey.json
-**/serviceAccountKey.json
-
-# Temporary
+# =========================
+# Misc
+# =========================
+.cache/
 tmp/
-.temp/
-
-# Vite
-/.vite/
-
-# Other
-coverage/
-
-# Protect local development secrets
-secrets.json
