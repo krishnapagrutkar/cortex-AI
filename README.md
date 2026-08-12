@@ -3,6 +3,10 @@ docker-compose up --build
 
 This repository contains a production-style Multi-Agent AI Platform built with the MERN stack (MongoDB, Express, React, Node) and a microservices architecture. The contents here summarize the project's purpose, architecture, core features, and development roadmap — based directly on the tutorial reference you provided.
 
+## About
+
+Cortex AI is a multi-agent platform designed to combine several specialized AI agents into a single application that can answer questions, fetch and summarize web data, analyze documents, and assist with coding tasks. It demonstrates how to build a scalable, production-ready system using microservices, vector search (Qdrant), caching/memory (Redis), and agent orchestration (LangGraph + LangChain). The frontend provides a modern chat-style UX built with React and Redux Toolkit that streams AI responses and shows conversation history.
+
 ## Key Project Features
 
 - Multi-Agent System: orchestrated with LangGraph and LangChain to coordinate multiple agents:
@@ -66,5 +70,13 @@ Place screenshots in `screenshots/` with these filenames so they render inline:
 - `dashboard.png` — Dashboard analysis view
 - `search.png` — Search results
 
-Reply `import attachments` if you want me to import the chat images into `screenshots/` and commit them.
+Reply `import attachments` if you want me to import the chat images into `screenshots/` and commit them. Alternatively, upload images into the `screenshots/` folder now (drag-and-drop in VS Code) with these filenames:
+
+- `home.png`
+- `api_guide.png`
+- `ppt_preview.png`
+- `dashboard.png`
+- `search.png`
+
+After you upload, reply `uploaded` and I will add/commit/push the images so they render inline in the README.
 
