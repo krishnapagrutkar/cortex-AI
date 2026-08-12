@@ -1,0 +1,45 @@
+# Node
+node_modules/
+
+# Env files
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tgz
+
+# Sensitive files
+backend/auth/serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Temporary
+tmp/
+.temp/
+
+# Vite
+/.vite/
+
+# Other
+coverage/
+
+# Protect local development secrets
+secrets.json
