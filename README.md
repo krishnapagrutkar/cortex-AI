@@ -1,4 +1,3 @@
-docker-compose up --build
 # Cortex AI — Multi-Agent AI Platform
 
 This repository contains a production-style Multi-Agent AI Platform built with the MERN stack (MongoDB, Express, React, Node) and a microservices architecture. The contents here summarize the project's purpose, architecture, core features, and development roadmap — based directly on the tutorial reference you provided.
@@ -62,21 +61,10 @@ If you want a detailed per-service README, run commands, or a CI workflow next, 
 
 ## Proof of work — Screenshots
 
-Place screenshots in `screenshots/` with these filenames so they render inline:
+<img width="1672" height="941" alt="AI4" src="https://github.com/user-attachments/assets/9bf79972-a518-4d62-989e-7b73539d1343" />
+<img width="1672" height="941" alt="AI3" src="https://github.com/user-attachments/assets/ff1569b2-960e-470d-bab8-c10a23eb2d0e" />
+<img width="1672" height="941" alt="AI2" src="https://github.com/user-attachments/assets/fffcf898-fbda-47f2-b126-e8971e13ae21" />
+<img width="1672" height="941" alt="AI1" src="https://github.com/user-attachments/assets/91c6d5b6-393e-438b-91f3-dfb9cee3789a" />
+<img width="1672" height="941" alt="AI5" src="https://github.com/user-attachments/assets/93748174-b593-4926-9e32-86c70cfcf2b3" />
 
-- `home.png` — App home / Chat UI
-- `api_guide.png` — API Guide / PDF preview
-- `ppt_preview.png` — PPT preview
-- `dashboard.png` — Dashboard analysis view
-- `search.png` — Search results
-
-Reply `import attachments` if you want me to import the chat images into `screenshots/` and commit them. Alternatively, upload images into the `screenshots/` folder now (drag-and-drop in VS Code) with these filenames:
-
-- `home.png`
-- `api_guide.png`
-- `ppt_preview.png`
-- `dashboard.png`
-- `search.png`
-
-After you upload, reply `uploaded` and I will add/commit/push the images so they render inline in the README.
 
